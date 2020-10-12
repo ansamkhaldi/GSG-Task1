@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    box-sizing:border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+.container {
+    margin: 2% 20% 2% 20%;
+    display: flex;
+}
+.container .phone ,
+.container .group{
+    margin:4px ;  
+    width: 50%;
+} 
+.phone img{
+    width: 65%;
+    height: 450px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.phone #dotId{
+    width: 65%;
+    text-align: center;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 20px 5px ;
+    background-color: #fff;
+    border-radius: 50%;
+    border:1px solid rgb(152 210 97);
+    display: inline-block;
+  }
+
+.group #logo{
+    width: 165spx;
+    height: 83px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .group p{
+      font-size: 21px;
+      color: darkgray;
+  }
+.container button{
+    border-radius: 40px;
+    height: 40px;
+    width: 145px;
+    margin: 30px 15px 30px 0px;
+    font-weight: bold;
+}
+#download{
+    background-color: #fff;
+    color: rgb(152 210 97);
+    border: 1px rgb(152 210 97) solid;
+}
+#learnMore{
+    background-color: rgba(82, 80, 80, 0.4);
+    color: #fff;
+    border: 0px solid  rgba(82, 80, 80, 0.4);
+}
+.container .social{
+    width: 35%;
+    display:flex;
+    justify-content: space-between;
+}
+.social span img{
+width: 20px;
+height: 20px;
+}
